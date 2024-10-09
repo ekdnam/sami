@@ -1,0 +1,22 @@
+name: fastsam-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - opencv
+  - numpy
+  - pip
+  - matplotlib
+  - scipy
+  - pillow
+  - fastapi
+  - uvicorn
+  - python-multipart
+  - pip:
+    - ultralytics
+    - onnxruntime
+    - segment-anything
